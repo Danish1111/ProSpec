@@ -16,6 +16,11 @@ s.dependency 'Alamofire'
 s.swift_version = "4.2"
 s.source_files = 'Pro1/**/*.{swift, plist}'
 s.resources = 'Pro1/**/*.{storyboard,xib,xcassets,json,png}'
+s.resource_bundles = {
+    'Pro1' => ['Pro1/**/*.{xib,storyboard,xcassets}']
+}
 
 
 end
+
+
